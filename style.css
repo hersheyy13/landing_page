@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px ;
+    
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    font-size: 10px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+#intro{
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(227, 170, 170); */
+    padding: 10px;
+}
+#intro h1{
+    font-size: 125px;
+    letter-spacing: 4px;
+    line-height: 110px;
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    color: rgb(68, 35, 100);
+    font-size: 90%;
+    font-weight: 600;
+}
+#hero-img{
+    height: 87%;
+    width: 100%;
+    background-image: url(file:///C:/Users/raikw/Downloads/bent.webp);
+    background-size: cover;
+}
+#about{
+    height: 40%;
+    width: 100%;
+    /* background-color: rosybrown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+    
+    width: 50%;
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: -3px;
+}
+#about-part2{
+    width: 36%;
+    height: 100%;
+    padding: 0px 40px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#work{
+    /* background-color: rosybrown; */
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 50px 60px;
+}
+#work1{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+#work1 h3{
+    font-size: 33px;
+}
+#work i{
+    font-size: 30px;
+}
+#work2{
+    height: 100%;
+    width: 65%;
+    padding: 0 60px;
+}
+.work2-part{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-right: 60px;
+}
+.work2-part .elem:nth-child(2){
+    padding-left: 50px;
+}
+.work2-part .elem h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    /* font-weight: 600; */
+}
+.work2-part .elem p{
+    font-size: 15px;
+    /* line-height: 30px; */
+    /* font-weight: 500; */
+}
